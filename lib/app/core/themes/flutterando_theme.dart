@@ -9,12 +9,14 @@ class FlutterandoTheme {
         fontFamily: FONT_FAMILY,
         fontSize: 22,
         fontWeight: FontWeight.w700,
+        color: Colors.white,
       ),
       //autor
       headline1: TextStyle(
         fontFamily: FONT_FAMILY,
         fontSize: 10,
         fontWeight: FontWeight.w500,
+        color: Colors.white,
       ),
       //action button card
       headline2: TextStyle(
