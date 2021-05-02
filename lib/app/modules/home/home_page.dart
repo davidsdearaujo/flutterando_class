@@ -77,7 +77,7 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
                   ),
                 ),
                 Positioned(
-                  top: 39,
+                  top: MediaQuery.of(context).viewPadding.top + 39,
                   right: 32,
                   child: Image.asset(
                     "assets/img/icons/flagBr.png",
@@ -87,7 +87,7 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
                   ),
                 ),
                 Positioned(
-                  top: 39,
+                  top: MediaQuery.of(context).viewPadding.top + 39,
                   left: 32,
                   child: Image.asset(
                     "assets/img/logo/logo_white.png",
