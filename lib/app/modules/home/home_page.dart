@@ -85,7 +85,16 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
                     width: 25,
                     height: 25,
                   ),
-                )
+                ),
+                Positioned(
+                  top: 39,
+                  left: 32,
+                  child: Image.asset(
+                    "assets/img/logo/logo_white.png",
+                    width: 25,
+                    height: 25,
+                  ),
+                ),
               ],
             ),
             Padding(

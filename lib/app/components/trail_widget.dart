@@ -5,7 +5,7 @@ import '../core/constants/colors.dart';
 class TrailWidget extends StatelessWidget {
   final String title;
   const TrailWidget({Key? key, required this.title}) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,7 +26,7 @@ class TrailWidget extends StatelessWidget {
               filterQuality: FilterQuality.low,
             ),
             SizedBox(width: 6),
-            Expanded(child: Text("Iniciante", style: Theme.of(context).textTheme.headline3?.copyWith(color: Colors.white))),
+            Expanded(child: Text(title, style: Theme.of(context).textTheme.headline3?.copyWith(color: Colors.white))),
             Text("Assistir", style: Theme.of(context).textTheme.headline2?.copyWith(color: Colors.white)),
             Icon(Icons.keyboard_arrow_right_rounded, color: AppColors.accent, size: 18),
           ],
